@@ -17,6 +17,8 @@ export PROJECT_NAME="DEFAULT"
 
 export ${PROJECT_NAME}_DATA_DIR=`pwd`/data
 
+export ${PROJECT_NAME}_OUTPUT_DIR=`pwd`/output
+
 export ${PROJECT_NAME}_ACTIVE=1
 
 set +x
