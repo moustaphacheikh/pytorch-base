@@ -8,7 +8,8 @@ def add_model_options(parser):
     """This function takes a child parser and adds all 
        options corresponding to the model hyperparameters.
     """
-    raise NotImplementedError
+    # raise NotImplementedError
+    parser.add_argument('--test', type=int, default=10)
 
 def validate_model_options(options, args):
     """Given the parsed options and arguments, this function makes 
