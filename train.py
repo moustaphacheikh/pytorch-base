@@ -29,7 +29,7 @@ def main():
             index = i
 
     global general_args
-    general_args = parser.parse_args(sys.argv[:index+1])
+    general_args = parser.parse_args(sys.argv[1:index+1])
     model_add_options, model_validate_options, model = get_model(general_args.model_name)
 
     global model_args
