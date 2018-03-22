@@ -39,5 +39,4 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    parser.parse_args()
     sys.exit(main())
